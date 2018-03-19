@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/home/svtter/project/slam/.git'
+let g:netrw_dirhist_2='/home/svtter/Documents/notebook/tianchi/.git'
+let g:netrw_dirhist_3='/home/svtter/catkin_ws/src/object_detector/include'
+let g:netrw_dirhist_4='/home/svtter/catkin_ws/src/object_detector/include/obj_detector'
+let g:netrw_dirhist_5='/home/svtter/.trash'
+let g:netrw_dirhist_6='/home/svtter/project/todo/src'
+let g:netrw_dirhist_7='/home/svtter/project/todo/.git'
+let g:netrw_dirhist_8='/home/svtter/Note/vim-note'
