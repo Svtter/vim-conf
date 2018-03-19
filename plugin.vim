@@ -153,7 +153,4 @@ Plug 'luochen1990/rainbow'
 " Wexin:
 " "Plug 'chemzqm/wxapp.vim'
 
-" Map:
-Plug 'Svtter/map.vim'
-
 call plug#end()

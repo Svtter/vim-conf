@@ -8,4 +8,4 @@
 source ~/.vim/plugin.vim
 source ~/.vim/plugin-config.vim
 source ~/.vim/default.vim
-
+source ~/.vim/map.vim
