@@ -88,7 +88,7 @@ nnoremap <Leader>ee :e $MYVIMRC<CR>
 
 nnoremap <Leader>ev :e ~/.vim/plugged/<CR>
 nnoremap <Leader>el :e ~/.vim/Plugin.vim<CR>
-nnoremap <Leader>em :e ~/.vim/plugged/map.vim/plugin/map.vim<CR>
+nnoremap <Leader>em :e ~/.vim/map.vim<CR>
 nnoremap <Leader>ea :e ~/.vim/plugged/vim-abbreviations/plugin/vim-abbreviations.vim<CR>
 nnoremap <Leader>en :e ~/.vim/config/
 

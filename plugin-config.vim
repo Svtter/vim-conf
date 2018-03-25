@@ -172,3 +172,5 @@ let g:ale_linters = {
 " TS_options:
 let g:typescript_compiler_binary = 'tsc'
 let g:typescript_compiler_options = ''
+
+colorscheme afterglow
