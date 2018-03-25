@@ -7,11 +7,16 @@
               \_/ |_|_| |_| |_|     |_| |_|\___/ \__\___|   ~
 
 
+            上面这个东西使用`figlet -f ogre 'vim-note'`来生成的
+
+
 ===============================================================================
 CONTENTS                                                        *PotionContents*
 
     1. MOVE ................................. |Q_LR|
     2. INPUT ................................ |INPUT|
+    3. DELETE ............................... |DELETE|
+    4. MAPPING .............................. |MAPPING|
 
 
 
@@ -24,7 +29,7 @@ MOVE                                                                    *Q_LR*
 |star|	N  *		search forward for the identifier under the cursor
 |#|	N  #		search backward for the identifier under the cursor
 
-			meaning		      magic   nomagic	~
+		        meaning		      magic   nomagic	~
 		matches any single character	.	\.
 		       matches start of line	^	^
 			       matches <EOL>	$	$
@@ -65,7 +70,7 @@ INPUT                                                                   *INPUT*
 
 
 ===============================================================================
-DELETE
+DELETE                                                                 *DELETE*
 
 |:d|	:[range]d [x]	delete [range] lines [into register x]
 |~|	  N  ~		switch case for N characters and advance cursor
@@ -74,11 +79,24 @@ DELETE
 
 
 ===============================================================================
-MAPPING
+MAPPING                                                               *MAPPING*
 
 |:mkexrc|    :mk[exrc][!] [file]  write current mappings, abbreviations, and
 				     settings to [file] (default: ".exrc";
 				     use ! to overwrite)
+
+
+===============================================================================
+*Q_fo*		Folding
+
+|'foldmethod'|	set foldmethod=manual	manual folding
+		set foldmethod=indent	folding by indent
+		set foldmethod=expr	folding by 'foldexpr'
+		set foldmethod=syntax	folding by syntax regions
+		set foldmethod=marker	folding by 'foldmarker'
+
+|zf|		zf{motion}		operator: Define a fold manually
+|:fold|		:{range}fold		define a fold for {range} lines
 
 
  vim:tw=78:ts=8:ft=help:norl:

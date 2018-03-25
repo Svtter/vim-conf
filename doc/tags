@@ -1,0 +1,8 @@
+!_TAG_FILE_ENCODING	utf-8	//
+DELETE	vim-note.txt	/*DELETE*
+INPUT	vim-note.txt	/*INPUT*
+MAPPING	vim-note.txt	/*MAPPING*
+PotionContents	vim-note.txt	/*PotionContents*
+Q_LR	vim-note.txt	/*Q_LR*
+Q_fo	vim-note.txt	/*Q_fo*
+vim-note	vim-note.txt	/*vim-note*

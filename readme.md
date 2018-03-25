@@ -10,6 +10,7 @@ vim +PluginInstall +qall
 ```
 
 
-## help-f
+## help-file
 
-unfinished
+`:helptags ~/.vim/doc`
+
