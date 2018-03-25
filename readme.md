@@ -9,3 +9,7 @@ ln -s .config/nvim/init.vim ~/.vimrc
 vim +PluginInstall +qall
 ```
 
+
+## help-f
+
+unfinished
