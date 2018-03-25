@@ -5,6 +5,8 @@
 " source ~/github/vim/skywind.vim
 
 
+" cd current directory: :cd %:p:h
+
 source ~/.vim/plugin.vim
 source ~/.vim/plugin-config.vim
 source ~/.vim/default.vim
