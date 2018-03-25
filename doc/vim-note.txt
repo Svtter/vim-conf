@@ -1,0 +1,84 @@
+*vim-note* 记录一些自己经常忘记的vim操作
+
+                   _                             _          ~
+            __   _(_)_ __ ___        _ __   ___ | |_ ___    ~
+            \ \ / / | '_ ` _ \ _____| '_ \ / _ \| __/ _ \   ~
+             \ V /| | | | | | |_____| | | | (_) | ||  __/   ~
+              \_/ |_|_| |_| |_|     |_| |_|\___/ \__\___|   ~
+
+
+===============================================================================
+CONTENTS                                                        *PotionContents*
+
+    1. MOVE ................................. |Q_LR|
+    2. INPUT ................................ |INPUT|
+
+
+
+
+
+
+===============================================================================
+MOVE                                                                    *Q_LR*
+
+|star|	N  *		search forward for the identifier under the cursor
+|#|	N  #		search backward for the identifier under the cursor
+
+			meaning		      magic   nomagic	~
+		matches any single character	.	\.
+		       matches start of line	^	^
+			       matches <EOL>	$	$
+		       matches start of word	\<	\<
+			 matches end of word	\>	\>
+	matches a single char from the range	[a-z]	\[a-z]
+      matches a single char not in the range	[^a-z]	\[^a-z]
+		  matches an identifier char	\i	\i
+		   idem but excluding digits	\I	\I
+		 matches a keyword character	\k	\k
+		   idem but excluding digits	\K	\K
+	       matches a file name character	\f	\f
+		   idem but excluding digits	\F	\F
+	       matches a printable character	\p	\p
+		   idem but excluding digits	\P	\P
+	     matches a white space character	\s	\s
+	 matches a non-white space character	\S	\S
+
+			       matches <Esc>	\e	\e
+			       matches <Tab>	\t	\t
+				matches <CR>	\r	\r
+				matches <BS>	\b	\b
+
+     matches 0 or more of the preceding atom	*	\*
+     matches 1 or more of the preceding atom	\+	\+
+	matches 0 or 1 of the preceding atom	\=	\=
+	matches 2 to 5 of the preceding atom	\{2,5}  \{2,5}
+		  separates two alternatives	\|	\|
+		group a pattern into an atom	\(\)	\(\)
+
+
+===============================================================================
+INPUT                                                                   *INPUT*
+
+|i_CTRL-W|	CTRL-W		  delete word before the cursor
+|i_CTRL-U|	CTRL-U		  delete all entered characters in the current
+
+
+
+===============================================================================
+DELETE
+
+|:d|	:[range]d [x]	delete [range] lines [into register x]
+|~|	  N  ~		switch case for N characters and advance cursor
+
+
+
+
+===============================================================================
+MAPPING
+
+|:mkexrc|    :mk[exrc][!] [file]  write current mappings, abbreviations, and
+				     settings to [file] (default: ".exrc";
+				     use ! to overwrite)
+
+
+ vim:tw=78:ts=8:ft=help:norl:

@@ -136,3 +136,5 @@ set pastetoggle=<F10>
 
 " for molokai
 let g:rehash256 = 1
+
+set autochdir

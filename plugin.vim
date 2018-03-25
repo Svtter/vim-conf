@@ -35,8 +35,12 @@ Plug 'jpalardy/vim-slime'
 
 " Spellchecker:
 "Plug 'scrooloose/syntastic'
-"Plug 'w0rp/ale'
-Plug 'davidhalter/jedi-vim'
+Plug 'w0rp/ale'
+"Plug 'davidhalter/jedi-vim'
+
+
+" Completor:
+Plug 'maralla/completor.vim'
 
 
 " General Programming:
