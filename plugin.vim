@@ -157,4 +157,6 @@ Plug 'luochen1990/rainbow'
 " Wexin:
 " "Plug 'chemzqm/wxapp.vim'
 
+Plug '/usr/local/opt/fzf'
+
 call plug#end()
