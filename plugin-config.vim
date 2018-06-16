@@ -19,6 +19,14 @@ endif
 " -----------------------------------------------------------------------------"
 
 
+"
+" -----------------------------------------------------------------------------"
+" NerdTree
+
+let g:NERDTreeWinPos = "right"
+
+" -----------------------------------------------------------------------------"
+
 
 
 
@@ -81,6 +89,7 @@ nnoremap <silent> <leader>gp :Git push<CR>
 nnoremap <silent> <leader>gr :Gread<CR>
 nnoremap <silent> <leader>gw :Gwrite<CR>
 nnoremap <silent> <leader>ge :Gedit<CR>
+
 
 " Mnemonic _i_nteractive
 nnoremap <silent> <leader>gi :Git add -p %<CR>
@@ -160,17 +169,28 @@ if !exists("g:spf13_no_conceal")
 endif
 
 
-
-" Ale: spellchecker
+" ------------------------------------------------------
+" => Ale: spellchecker
+" ------------------------------------------------------
 
 let g:ale_linters = {
-\   'javascript': ['tsc'],
-\   'python': [],
+\   'javascript': ['jshint'],
+\   'python': ['flake8'],
+\   'go': ['go', 'golint', 'errcheck']
 \}
-
 
 " TS_options:
 let g:typescript_compiler_binary = 'tsc'
 let g:typescript_compiler_options = ''
+
+
+nmap <silent> <leader>a <Plug>(ale_next_wrap)
+
+" Disabling highlighting
+let g:ale_set_highlights = 0
+
+" Only run linting when saving the file
+let g:ale_lint_on_text_changed = 'never'
+let g:ale_lint_on_enter = 0
 
 colorscheme afterglow

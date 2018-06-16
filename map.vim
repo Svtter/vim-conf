@@ -24,7 +24,7 @@ nnoremap tp :CtrlPBufTagAll<CR>
 nnoremap tt :TagbarToggle<CR>
 
 
-" 新的cpp文件
+" 新的py文件
 " nnoremap <Leader>nf :n $HOME/code/uva/
 " nnoremap <Leader>nt :call TempCpp()<CR>
 
@@ -33,16 +33,29 @@ func! TempCpp()
     execute 'n /tmp/tmp.cpp'
 endfunction
 
+
+
 " 与J相反
 nnoremap <Leader>to i<CR><Esc>
+
+
+
 
 " map
 map j gj
 map k gk
 
+
 " For ACM
 nnoremap <Leader>ii :vs input<CR>
 nnoremap <Leader>io :vs ouput<CR>
+
+
+" 
+map <leader>dd :NERDTreeToggle<cr>
+map <leader>db :NERDTreeFromBookmark<Space>
+map <leader>df :NERDTreeFind<cr>
+
 
 " Ctrl map
 inoremap <C-z> <Esc>uA
