@@ -48,9 +48,9 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'easymotion/vim-easymotion'
 Plug 'spf13/vim-autoclose'
 
-"Plug 'ctrlpvim/ctrlp.vim'
-"Plug 'tacahiroy/ctrlp-funky'
-"Plug 'FelikZ/ctrlp-py-matcher'
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'tacahiroy/ctrlp-funky'
+Plug 'FelikZ/ctrlp-py-matcher'
 
 Plug 'godlygeek/tabular'
 Plug 'mbbill/undotree'
@@ -69,6 +69,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'rafi/awesome-vim-colorschemes'
 
+Plug 'ayu-theme/ayu-vim' " or other package manager
 
 
 " Javascript:

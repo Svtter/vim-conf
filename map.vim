@@ -74,8 +74,8 @@ nnoremap <Leader>p "+p
 " nnoremap L $
 
 " 分屏设置
-nnoremap ss :vs %<CR>
-nnoremap sp :sp %<CR>
+nnoremap <Leader>vs :vs %<CR>
+nnoremap <Leader>sp :sp %<CR>
 
 " 存储设置
 nnoremap <Leader>we :w<CR>
