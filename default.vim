@@ -17,6 +17,23 @@ set splitright                  " Puts new vsplit windows to the right of the cu
 set splitbelow                  " Puts new split windows to the bottom of the current
 
 
+" Set to auto read when a file is changed
+set autoread
+
+" Set 7 lines to the cursor - when moving vertically using j/k
+set so=7
+
+" Height of the command bar
+set cmdheight=2
+
+" Don't redraw while executing macros (good performance config)
+set lazyredraw 
+
+" A buffer becomes hidden when it is abandoned
+set hid
+
+" Add a bit extra margin to the left
+set foldcolumn=1
 
 " Cursor:
 
@@ -61,7 +78,8 @@ set iskeyword-=-                    " '-' is an end of word designator
 
 set backspace=indent,eol,start  " Backspace for dummies
 set linespace=0                 " No extra spaces between rows
-set number                      " Line numbers on
+" set number                      " Line numbers on
+"
 set showmatch                   " Show matching brackets/parenthesis
 set incsearch                   " Find as you type search
 set hlsearch                    " Highlight search terms
@@ -138,3 +156,5 @@ set pastetoggle=<F10>
 let g:rehash256 = 1
 
 set autochdir
+
+
