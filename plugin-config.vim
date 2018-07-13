@@ -142,7 +142,7 @@ autocmd FileType typescript :set makeprg=tsc
 
 
 " Ayns_Completor:
-"let g:completor_python_binary = ''
+let g:completor_python_binary = 'python3'
 let g:completor_clang_binary = '/usr/bin/gcc'
 let g:completor_gocode_binary = '/Users/xiuhao/go/bin/gocode'
 
