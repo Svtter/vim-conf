@@ -97,19 +97,19 @@ nnoremap <silent> <leader>gg :SignifyToggle<CR>
 
 
 " Ctrlp:
-"set wildignore+=*\\tmp\\*,*.swp,*.zip,*.exe  " Windows
+set wildignore+=*\\tmp\\*,*.swp,*.zip,*.exe  " Windows
 
-"let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
+let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
 
-"let g:ctrlp_extensions = ['tag', 'buffertag', 'quickfix', 'dir', 'rtscript',
-            "\ 'undo', 'line', 'changes', 'mixed', 'bookmarkdir']
-"let g:ctrlp_cmd = 'CtrlPMixed'
-"let g:ctrlp_lazy_update = 0
-"let g:ctrlp_brief_prompt = 1
-"let g:ctrlp_working_path_mode = 'ra'
-"let g:ctrlp_clear_cache_on_exit = 0
+let g:ctrlp_extensions = ['tag', 'buffertag', 'quickfix', 'dir', 'rtscript',
+            \ 'undo', 'line', 'changes', 'mixed', 'bookmarkdir']
+let g:ctrlp_cmd = 'CtrlPMixed'
+let g:ctrlp_lazy_update = 0
+let g:ctrlp_brief_prompt = 1
+let g:ctrlp_working_path_mode = 'ra'
+let g:ctrlp_clear_cache_on_exit = 0
 
-"let g:ctrlp_match_func = { 'match': 'pymatcher#PyMatch' }
+let g:ctrlp_match_func = { 'match': 'pymatcher#PyMatch' }
 
 
 
@@ -142,9 +142,15 @@ autocmd FileType typescript :set makeprg=tsc
 
 
 " Ayns_Completor:
-let g:completor_python_binary = 'python3'
+let g:completor_python_binary = "/usr/local/bin/python3"
 let g:completor_clang_binary = '/usr/bin/gcc'
 let g:completor_gocode_binary = '/Users/xiuhao/go/bin/gocode'
+
+inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
+inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
+inoremap <expr> <cr> pumvisible() ? "\<C-y>\<cr>" : "\<cr>"
+
+let g:completor_complete_options = 'menuone,noselect,preview'
 
 
 
@@ -193,4 +199,8 @@ let g:ale_set_highlights = 0
 let g:ale_lint_on_text_changed = 'never'
 let g:ale_lint_on_enter = 0
 
+
+set termguicolors
+let ayucolor="dark"   " for dark version of theme
+"colorscheme ayu
 colorscheme afterglow

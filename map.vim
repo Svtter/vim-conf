@@ -74,8 +74,8 @@ nnoremap <Leader>p "+p
 " nnoremap L $
 
 " 分屏设置
-nnoremap ss :vs %<CR>
-nnoremap sp :sp %<CR>
+nnoremap <Leader>vs :vs %<CR>
+nnoremap <Leader>sp :sp %<CR>
 
 " 存储设置
 nnoremap <Leader>we :w<CR>
@@ -101,6 +101,7 @@ nnoremap <Leader>ee :e $MYVIMRC<CR>
 
 nnoremap <Leader>ev :e ~/.vim/plugged/<CR>
 nnoremap <Leader>el :e ~/.vim/plugin.vim<CR>
+nnoremap <Leader>ec :e ~/.vim/plugin-config.vim<CR>
 nnoremap <Leader>ed :e ~/.vim/default.vim<CR>
 nnoremap <Leader>em :e ~/.vim/map.vim<CR>
 nnoremap <Leader>ea :e ~/.vim/plugged/vim-abbreviations/plugin/vim-abbreviations.vim<CR>
