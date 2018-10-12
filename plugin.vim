@@ -36,11 +36,21 @@ Plug 'jpalardy/vim-slime'
 " Spellchecker:
 "Plug 'scrooloose/syntastic'
 Plug 'w0rp/ale'
-Plug 'davidhalter/jedi-vim'
+"Plug 'davidhalter/jedi-vim'
 
 
 " Completor:
-Plug 'maralla/completor.vim'
+
+if has('nvim')
+  Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+else
+  Plug 'Shougo/deoplete.nvim'
+  Plug 'roxma/nvim-yarp'
+  Plug 'roxma/vim-hug-neovim-rpc'
+endif
+let g:deoplete#enable_at_startup = 1
+Plug 'zchee/deoplete-jedi'
+"Plug 'maralla/completor.vim'
 
 
 " General Programming:
