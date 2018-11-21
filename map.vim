@@ -23,6 +23,8 @@ nnoremap tb :CtrlPBuffer<CR>
 nnoremap tp :CtrlPBufTagAll<CR>
 nnoremap tt :TagbarToggle<CR>
 
+nnoremap <Leader>j :buffers<CR>:buffer<Space>
+
 
 " 新的py文件
 " nnoremap <Leader>nf :n $HOME/code/uva/
