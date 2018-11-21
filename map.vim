@@ -2,7 +2,18 @@
 " Last Change:
 " Maintainer: svtter <svtter@qq.com>
 " License:
+"
+"
+" Jedi:
 
+" Completion <C-Space>
+" Goto assignments <leader>g (typical goto function)
+" Goto definitions <leader>d (follow identifier as far as possible,
+" includes imports and statements)
+" Show Documentation/Pydoc K (shows a popup with assignments)
+" Renaming <leader>r
+" Usages <leader>n (shows all the usages of a name)
+" Open module, e.g. :Pyimport os (opens the os module)
 
 
 " ----------------------------------------------------------------------------
@@ -13,8 +24,9 @@
 let mapleader = " "
 
 " NERDtree 目录
-nnoremap <Leader>d :NERDTreeToggle<CR>
-nnoremap <Leader>ss :NERDTreeFind<CR>
+"nnoremap <Leader>d :NERDTreeToggle<CR>
+nnoremap <Leader>ss :NERDTreeToggle<CR>
+"nnoremap <Leader>ss :NERDTreeFind<CR>
 
 " Need Ctrlp
 " jet-pack buffer without-Ctrl-P: "nnoremap <leader>l :ls<CR>:b<space>
