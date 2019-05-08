@@ -28,8 +28,7 @@ Plug 'jpalardy/vim-slime'
 
 
 " Go:
-"Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
-
+Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
 "Plug 'tpope/vim-markdown'
 
 
@@ -37,6 +36,7 @@ Plug 'jpalardy/vim-slime'
 "Plug 'scrooloose/syntastic'
 Plug 'w0rp/ale'
 "Plug 'davidhalter/jedi-vim'
+
 
 
 " Completor:
@@ -66,11 +66,15 @@ Plug 'godlygeek/tabular'
 Plug 'mbbill/undotree'
 "Plug 'terryma/vim-multiple-cursors'
 
+Plug 'brookhong/cscope.vim'
 
 " EDIT:
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-repeat'
 
+
+" Rust:
+Plug 'rust-lang/rust.vim'
 
 
 " Colorschemes:
@@ -162,3 +166,5 @@ Plug 'luochen1990/rainbow'
 Plug '/usr/local/opt/fzf'
 
 call plug#end()
+
+let g:tex_conceal = ""
