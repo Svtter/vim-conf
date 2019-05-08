@@ -30,7 +30,6 @@ Plug 'tell-k/vim-autopep8'
 
 " Go:
 Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
-
 "Plug 'tpope/vim-markdown'
 
 
@@ -41,6 +40,7 @@ Plug 'w0rp/ale'
 
 " Wiki:
 Plug 'vimwiki/vimwiki'
+
 
 
 " Completor:
@@ -73,11 +73,15 @@ Plug 'mbbill/undotree'
 "Plug 'terryma/vim-multiple-cursors'
 Plug 'brookhong/cscope.vim'
 
+Plug 'brookhong/cscope.vim'
 
 " EDIT:
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-repeat'
 
+
+" Rust:
+Plug 'rust-lang/rust.vim'
 
 
 " Colorschemes:
@@ -169,3 +173,5 @@ Plug 'luochen1990/rainbow'
 Plug '/usr/local/opt/fzf'
 
 call plug#end()
+
+let g:tex_conceal = ""

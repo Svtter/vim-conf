@@ -1,3 +1,6 @@
 let g:netrw_dirhistmax  =10
 let g:netrw_dirhist_cnt =1
 let g:netrw_dirhist_1='/Users/xiuhao/work/project/person/blog-hugo/layouts'
+let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_1='/home/svtter/work/repo/watchdog/django-watchdog/.git'
+let g:netrw_dirhist_2='/home/svtter/work/repo/watchdog/django-watchdog/tests/mysite/mysite'

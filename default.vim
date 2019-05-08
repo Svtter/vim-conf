@@ -157,4 +157,3 @@ set pastetoggle=<F10>
 let g:rehash256 = 1
 
 set autochdir
-

@@ -204,3 +204,4 @@ let g:ale_lint_on_enter = 0
 let ayucolor="dark"   " for dark version of theme
 "colorscheme ayu
 colorscheme afterglow
+
