@@ -8,6 +8,7 @@ Plug 'junegunn/vim-easy-align'
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'majutsushi/tagbar'
 Plug 'lfv89/vim-interestingwords'
+Plug 'chr4/nginx.vim'
 
 
 " Async:
@@ -24,11 +25,11 @@ Plug 'tpope/vim-speeddating'
 Plug 'Glench/Vim-Jinja2-Syntax'
 Plug 'hylang/vim-hy'
 Plug 'jpalardy/vim-slime'
+Plug 'tell-k/vim-autopep8'
 "Plug 'Vimjas/vim-python-pep8-indent'
 
-
 " Go:
-"Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
+Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
 
 "Plug 'tpope/vim-markdown'
 
@@ -37,6 +38,9 @@ Plug 'jpalardy/vim-slime'
 "Plug 'scrooloose/syntastic'
 Plug 'w0rp/ale'
 "Plug 'davidhalter/jedi-vim'
+
+" Wiki:
+Plug 'vimwiki/vimwiki'
 
 
 " Completor:
@@ -49,7 +53,9 @@ else
   Plug 'roxma/vim-hug-neovim-rpc'
 endif
 let g:deoplete#enable_at_startup = 1
+
 Plug 'zchee/deoplete-jedi'
+Plug 'zchee/deoplete-go', { 'do': 'make'}
 "Plug 'maralla/completor.vim'
 
 
@@ -65,6 +71,7 @@ Plug 'FelikZ/ctrlp-py-matcher'
 Plug 'godlygeek/tabular'
 Plug 'mbbill/undotree'
 "Plug 'terryma/vim-multiple-cursors'
+Plug 'brookhong/cscope.vim'
 
 
 " EDIT:
@@ -93,7 +100,7 @@ Plug 'nathanaelkane/vim-indent-guides'
 
 
 " Git:
-"Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-fugitive'
 
 
 
