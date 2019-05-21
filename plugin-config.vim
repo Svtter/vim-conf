@@ -207,6 +207,8 @@ endif
 " set termguicolors
 let ayucolor="dark"   " for dark version of theme
 
-"colorscheme ayu
+colorscheme ayu
 "colorscheme afterglow
-colorscheme onedark
+"colorscheme onedark
+
+autocmd BufWritePost ~/.config/nvim/plugin-config.vim source ~/.config/nvim/plugin-config.vim
