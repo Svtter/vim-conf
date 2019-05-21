@@ -9,6 +9,8 @@ Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'majutsushi/tagbar'
 Plug 'lfv89/vim-interestingwords'
 Plug 'chr4/nginx.vim'
+Plug 'kshenoy/vim-signature'
+Plug 'neoclide/coc.nvim', {'tag': '*', 'do': './install.sh'}
 
 
 " Async:
@@ -26,7 +28,8 @@ Plug 'Glench/Vim-Jinja2-Syntax'
 Plug 'hylang/vim-hy'
 Plug 'jpalardy/vim-slime'
 Plug 'tell-k/vim-autopep8'
-"Plug 'Vimjas/vim-python-pep8-indent'
+Plug 'Vimjas/vim-python-pep8-indent'
+Plug 'hdima/python-syntax'
 
 " Go:
 Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
@@ -89,6 +92,7 @@ Plug 'flazz/vim-colorschemes'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'rafi/awesome-vim-colorschemes'
+Plug 'joshdick/onedark.vim'
 
 Plug 'ayu-theme/ayu-vim' " or other package manager
 
