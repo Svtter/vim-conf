@@ -22,6 +22,9 @@ Plug 'skywind3000/quickmenu.vim'
 Plug 'jceb/vim-orgmode'
 Plug 'tpope/vim-speeddating'
 
+" https://github.com/chrisbra/csv.vim#installation
+Plug 'chrisbra/csv.vim'
+
 
 " Python:
 Plug 'Glench/Vim-Jinja2-Syntax'
