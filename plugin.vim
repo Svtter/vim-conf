@@ -8,12 +8,19 @@ Plug 'junegunn/vim-easy-align'
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'majutsushi/tagbar'
 Plug 'lfv89/vim-interestingwords'
+Plug 'kshenoy/vim-signature'
+Plug 'mattn/webapi-vim'
+Plug 'leafgarland/typescript-vim'
 
 
 " Async:
 Plug 'skywind3000/asyncrun.vim'
 Plug 'skywind3000/quickmenu.vim'
 
+Plug 'suan/vim-instant-markdown'
+
+" Rust:
+Plug 'rust-lang/rust.vim'
 
 " Orgmode:
 Plug 'jceb/vim-orgmode'
@@ -168,3 +175,7 @@ Plug '/usr/local/opt/fzf'
 call plug#end()
 
 let g:tex_conceal = ""
+
+
+autocmd BufWritePost $MYVIMRC source $MYVIMRC
+autocmd BufWritePost ~/.config/nvim/plugin.vim source ~/.config/nvim/plugin.vim

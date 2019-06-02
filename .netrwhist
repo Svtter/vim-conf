@@ -1,4 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_cnt =3
 let g:netrw_dirhist_1='/home/svtter/work/repo/watchdog/django-watchdog/.git'
 let g:netrw_dirhist_2='/home/svtter/work/repo/watchdog/django-watchdog/tests/mysite/mysite'
+let g:netrw_dirhist_3='/home/svtter/Documents/github/tf-tutorials'

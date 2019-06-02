@@ -212,8 +212,21 @@ nnoremap  <leader>fi :call CscopeFind('i', expand('<cword>'))<CR>
 
 set pastetoggle=<F9>
 
-"  end
 
-" python
+" QuickJump:
+" nnoremap <Leader>M %
+" nmap H 0
+" nmap L $
+
+
+" python3 to python2
 " :%s/^\v(\s*print)\s+(.*)/\1(\2)
 
+
+" Use Mark:
+" m to mark
+" ' to jump
+
+
+
+"  end
