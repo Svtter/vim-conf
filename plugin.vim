@@ -11,6 +11,9 @@ Plug 'lfv89/vim-interestingwords'
 Plug 'kshenoy/vim-signature'
 Plug 'mattn/webapi-vim'
 Plug 'leafgarland/typescript-vim'
+Plug 'chr4/nginx.vim'
+Plug 'kshenoy/vim-signature'
+Plug 'neoclide/coc.nvim', {'tag': '*', 'do': './install.sh'}
 
 
 " Async:
@@ -26,13 +29,17 @@ Plug 'rust-lang/rust.vim'
 Plug 'jceb/vim-orgmode'
 Plug 'tpope/vim-speeddating'
 
+" https://github.com/chrisbra/csv.vim#installation
+Plug 'chrisbra/csv.vim'
+
 
 " Python:
 Plug 'Glench/Vim-Jinja2-Syntax'
 Plug 'hylang/vim-hy'
 Plug 'jpalardy/vim-slime'
-"Plug 'Vimjas/vim-python-pep8-indent'
-
+Plug 'tell-k/vim-autopep8'
+Plug 'Vimjas/vim-python-pep8-indent'
+Plug 'hdima/python-syntax'
 
 " Go:
 Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
@@ -43,6 +50,9 @@ Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
 "Plug 'scrooloose/syntastic'
 Plug 'w0rp/ale'
 "Plug 'davidhalter/jedi-vim'
+
+" Wiki:
+Plug 'vimwiki/vimwiki'
 
 
 
@@ -56,7 +66,9 @@ else
   Plug 'roxma/vim-hug-neovim-rpc'
 endif
 let g:deoplete#enable_at_startup = 1
+
 Plug 'zchee/deoplete-jedi'
+Plug 'zchee/deoplete-go', { 'do': 'make'}
 "Plug 'maralla/completor.vim'
 
 
@@ -72,6 +84,7 @@ Plug 'FelikZ/ctrlp-py-matcher'
 Plug 'godlygeek/tabular'
 Plug 'mbbill/undotree'
 "Plug 'terryma/vim-multiple-cursors'
+Plug 'brookhong/cscope.vim'
 
 Plug 'brookhong/cscope.vim'
 
@@ -89,6 +102,7 @@ Plug 'flazz/vim-colorschemes'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'rafi/awesome-vim-colorschemes'
+Plug 'joshdick/onedark.vim'
 
 Plug 'ayu-theme/ayu-vim' " or other package manager
 
@@ -104,7 +118,7 @@ Plug 'nathanaelkane/vim-indent-guides'
 
 
 " Git:
-"Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-fugitive'
 
 
 

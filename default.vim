@@ -104,8 +104,9 @@ set statusline+=%#warningmsg#
 set statusline+=%*
 
 " Jsx_syntax:
-"autocmd FileType jinja,html,js,css setlocal et sta sw=2 sts=2
-"autocmd FileType javascript.jsx,javascript setlocal et sta sw=2 sts=2
+autocmd FileType jinja,html,js,css setlocal et sta sw=2 sts=2
+autocmd FileType javascript.jsx,javascript setlocal et sta sw=2 sts=2
+autocmd FileType yaml,yml setlocal et sta sw=2 sts=2
 
 
 

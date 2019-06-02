@@ -200,13 +200,20 @@ let g:ale_lint_on_text_changed = 'never'
 let g:ale_lint_on_enter = 0
 
 
+if has('nvim') || has('termguicolors')
+  set termguicolors
+endif
+
 " set termguicolors
 let ayucolor="dark"   " for dark version of theme
+
 "colorscheme ayu
 colorscheme afterglow
-
+"colorscheme onedark
 
 " instant view
 let g:instant_markdown_slow = 1
 let g:instant_markdown_open_to_the_world = 1
 let g:instant_markdown_allow_external_content = 1
+
+autocmd BufWritePost ~/.config/nvim/plugin-config.vim source ~/.config/nvim/plugin-config.vim
