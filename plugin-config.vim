@@ -212,3 +212,6 @@ colorscheme ayu
 "colorscheme onedark
 
 autocmd BufWritePost ~/.config/nvim/plugin-config.vim source ~/.config/nvim/plugin-config.vim
+
+let g:slime_target = "screen"
+let g:slime_paste_file = tempname()

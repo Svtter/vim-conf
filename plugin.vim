@@ -11,6 +11,7 @@ Plug 'lfv89/vim-interestingwords'
 Plug 'chr4/nginx.vim'
 Plug 'kshenoy/vim-signature'
 Plug 'neoclide/coc.nvim', {'tag': '*', 'do': './install.sh'}
+Plug 'Vigemus/iron.nvim'
 
 
 " Async:
@@ -23,10 +24,11 @@ Plug 'jceb/vim-orgmode'
 Plug 'tpope/vim-speeddating'
 
 
+
 " Python:
 Plug 'Glench/Vim-Jinja2-Syntax'
 Plug 'hylang/vim-hy'
-Plug 'jpalardy/vim-slime'
+"Plug 'jpalardy/vim-slime'
 Plug 'tell-k/vim-autopep8'
 Plug 'Vimjas/vim-python-pep8-indent'
 Plug 'hdima/python-syntax'
