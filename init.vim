@@ -12,4 +12,4 @@ source ~/.vim/plugin-config.vim
 source ~/.vim/default.vim
 source ~/.vim/map.vim
 
-luafile $HOME/.config/nvim/plugins.lua
+"luafile $HOME/.config/nvim/plugins.lua
