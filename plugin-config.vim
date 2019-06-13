@@ -220,3 +220,5 @@ autocmd BufWritePost ~/.config/nvim/plugin-config.vim source ~/.config/nvim/plug
 
 let g:slime_target = "screen"
 let g:slime_paste_file = tempname()
+
+let g:deoplete#sources#jedi#python_path = "/Users/xiuhao/miniconda3/bin/python"

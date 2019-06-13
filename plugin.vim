@@ -13,7 +13,8 @@ Plug 'mattn/webapi-vim'
 Plug 'leafgarland/typescript-vim'
 Plug 'chr4/nginx.vim'
 Plug 'kshenoy/vim-signature'
-Plug 'neoclide/coc.nvim', {'tag': '*', 'do': './install.sh'}
+
+
 Plug 'Vigemus/iron.nvim'
 
 
@@ -60,17 +61,26 @@ Plug 'vimwiki/vimwiki'
 
 " Completor:
 
-if has('nvim')
-  Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-else
-  Plug 'Shougo/deoplete.nvim'
-  Plug 'roxma/nvim-yarp'
-  Plug 'roxma/vim-hug-neovim-rpc'
-endif
-let g:deoplete#enable_at_startup = 1
+" use deoplete or coc.nvim
+let g:is_deoplete = 1
 
-Plug 'zchee/deoplete-jedi'
-Plug 'zchee/deoplete-go', { 'do': 'make'}
+if g:is_deoplete
+    if has('nvim')
+        Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+    else
+        Plug 'Shougo/deoplete.nvim'
+        Plug 'roxma/nvim-yarp'
+        Plug 'roxma/vim-hug-neovim-rpc'
+
+    endif
+
+    Plug 'zchee/deoplete-jedi'
+    Plug 'zchee/deoplete-go', { 'do': 'make'}
+    let g:deoplete#enable_at_startup = 1
+else
+    Plug 'neoclide/coc.nvim', {'tag': '*', 'do': './install.sh'}
+endif
+
 "Plug 'maralla/completor.vim'
 
 

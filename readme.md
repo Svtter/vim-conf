@@ -16,3 +16,7 @@ vim +PluginInstall +qall
 
 `:helptags ~/.vim/doc`
 
+
+## W.I.P
+
+- coc.nvim integrate.
