@@ -33,6 +33,7 @@ Plug 'tpope/vim-speeddating'
 
 " https://github.com/chrisbra/csv.vim#installation
 Plug 'chrisbra/csv.vim'
+Plug 'numirias/semshi', {'do': ':UpdateRemotePlugins'}
 
 
 
