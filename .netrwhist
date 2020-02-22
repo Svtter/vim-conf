@@ -1,5 +1,11 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
-let g:netrw_dirhist_1='/home/svtter/work/repo/watchdog/django-watchdog/.git'
-let g:netrw_dirhist_2='/home/svtter/work/repo/watchdog/django-watchdog/tests/mysite/mysite'
-let g:netrw_dirhist_3='/Users/xiuhao/work/github/wagtail-test/mysite/mysite/settings'
+let g:netrw_dirhistcnt =9
+let g:netrw_dirhist_9='/home/vagrant/work/go/src/github.com/svtter/responser/cmd'
+let g:netrw_dirhist_8='/home/vagrant/work/go/src/github.com/svtter/responser/cmd/cron'
+let g:netrw_dirhist_7='/home/vagrant/work/go/src/github.com/svtter/responser/cmd'
+let g:netrw_dirhist_6='/home/vagrant/work/go/src/github.com/svtter/responser/view'
+let g:netrw_dirhist_5='/home/vagrant/work/repo/reconnector/reconnector'
+let g:netrw_dirhist_4='/home/vagrant/work/repo/reconnector'
+let g:netrw_dirhist_3='/home/vagrant/work/repo/simple-todos/client'
+let g:netrw_dirhist_2='/home/vagrant/.streamlit'
+let g:netrw_dirhist_1='/home/vagrant/work/appwrite/js-proj/.git'

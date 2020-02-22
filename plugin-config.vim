@@ -3,7 +3,7 @@
 " airline {
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
-let g:airline_theme = 'afterglow'
+"let g:airline_theme = 'afterglow'
 " }
 
 
@@ -207,8 +207,8 @@ endif
 " set termguicolors
 let ayucolor="dark"   " for dark version of theme
 
-"colorscheme ayu
-colorscheme afterglow
+colorscheme ayu
+"colorscheme afterglow
 "colorscheme onedark
 
 " instant view
@@ -221,4 +221,9 @@ autocmd BufWritePost ~/.config/nvim/plugin-config.vim source ~/.config/nvim/plug
 let g:slime_target = "screen"
 let g:slime_paste_file = tempname()
 
-let g:deoplete#sources#jedi#python_path = "/Users/xiuhao/miniconda3/bin/python"
+"let g:deoplete#sources#jedi#python_path = "/Users/xiuhao/miniconda3/bin/python"
+
+
+" leader f
+let g:Lf_WindowPosition = 'popup'
+

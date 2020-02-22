@@ -10,12 +10,14 @@ Plug 'majutsushi/tagbar'
 Plug 'lfv89/vim-interestingwords'
 Plug 'kshenoy/vim-signature'
 Plug 'mattn/webapi-vim'
-Plug 'leafgarland/typescript-vim'
-Plug 'chr4/nginx.vim'
+"Plug 'leafgarland/typescript-vim'
+"Plug 'chr4/nginx.vim'
 Plug 'kshenoy/vim-signature'
 
 
 Plug 'Vigemus/iron.nvim'
+
+"Plug 'ternjs/tern_for_vim'
 
 
 " Async:
@@ -25,11 +27,11 @@ Plug 'skywind3000/quickmenu.vim'
 Plug 'suan/vim-instant-markdown'
 
 " Rust:
-Plug 'rust-lang/rust.vim'
+"Plug 'rust-lang/rust.vim'
 
 " Orgmode:
-Plug 'jceb/vim-orgmode'
-Plug 'tpope/vim-speeddating'
+"Plug 'jceb/vim-orgmode'
+"Plug 'tpope/vim-speeddating'
 
 " https://github.com/chrisbra/csv.vim#installation
 Plug 'chrisbra/csv.vim'
@@ -90,9 +92,11 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'easymotion/vim-easymotion'
 Plug 'spf13/vim-autoclose'
 
-Plug 'ctrlpvim/ctrlp.vim'
-Plug 'tacahiroy/ctrlp-funky'
-Plug 'FelikZ/ctrlp-py-matcher'
+
+Plug 'Yggdroot/LeaderF', { 'do': './install.sh' }
+"Plug 'ctrlpvim/ctrlp.vim'
+"Plug 'tacahiroy/ctrlp-funky'
+"Plug 'FelikZ/ctrlp-py-matcher'
 
 Plug 'godlygeek/tabular'
 Plug 'mbbill/undotree'
@@ -111,11 +115,11 @@ Plug 'rust-lang/rust.vim'
 
 
 " Colorschemes:
-Plug 'flazz/vim-colorschemes'
+"Plug 'flazz/vim-colorschemes'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'rafi/awesome-vim-colorschemes'
-Plug 'joshdick/onedark.vim'
+"Plug 'rafi/awesome-vim-colorschemes'
+"Plug 'joshdick/onedark.vim'
 
 Plug 'ayu-theme/ayu-vim' " or other package manager
 

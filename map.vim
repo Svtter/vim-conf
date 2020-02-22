@@ -20,6 +20,8 @@
 "  Map: map设置
 " ----------------------------------------------------------------------------
 " 任何时候都是使用*noremap的形式，以非递归形式
+"
+set number
 
 let mapleader = " "
 
@@ -160,8 +162,8 @@ nnoremap \ dd
 
 
 " 强迫ESC不可用模式
-inoremap <Esc> <nop>
-inoremap fd <ESC>
+"inoremap <Esc> <nop>
+inoremap jj <ESC>
 
 " Movement:
 "
