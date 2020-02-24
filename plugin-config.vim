@@ -23,7 +23,7 @@ endif
 " -----------------------------------------------------------------------------"
 " NerdTree
 
-let g:NERDTreeWinPos = "right"
+"let g:NERDTreeWinPos = "right"
 
 " -----------------------------------------------------------------------------"
 
@@ -205,11 +205,12 @@ if has('nvim') || has('termguicolors')
 endif
 
 " set termguicolors
-let ayucolor="dark"   " for dark version of theme
+"let ayucolor="dark"   " for dark version of theme
 
-colorscheme ayu
+"colorscheme ayu
 "colorscheme afterglow
-"colorscheme onedark
+colorscheme onedark
+
 
 " instant view
 let g:instant_markdown_slow = 1

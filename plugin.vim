@@ -6,6 +6,7 @@ call plug#begin('~/.vim/plugged')
 " Default:
 Plug 'junegunn/vim-easy-align'
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+"Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'majutsushi/tagbar'
 Plug 'lfv89/vim-interestingwords'
 Plug 'kshenoy/vim-signature'
@@ -119,9 +120,8 @@ Plug 'rust-lang/rust.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 "Plug 'rafi/awesome-vim-colorschemes'
-"Plug 'joshdick/onedark.vim'
-
-Plug 'ayu-theme/ayu-vim' " or other package manager
+Plug 'joshdick/onedark.vim'
+"Plug 'ayu-theme/ayu-vim' " or other package manager
 
 
 " Javascript:
